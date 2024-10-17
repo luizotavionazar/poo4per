@@ -23,12 +23,13 @@ public class Atv2 {
             } catch (Exception e) {
                 control= false;
             }
-            
+
         }
 
         System.out.println("");
         System.out.println("Soma final: "+soma);
         System.out.println("");
 
+    in.close();
     }
 }
