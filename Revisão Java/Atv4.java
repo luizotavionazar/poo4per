@@ -13,7 +13,7 @@ public class Atv4 {
         System.out.print("Frase: ");
         frase= in.nextLine();
 
-        StringTokenizer separador= new StringTokenizer(frase, " ,!@?:;./|=+-()*&¨%$#'><[]^~°ºª§");
+        StringTokenizer separador= new StringTokenizer(frase, " ,!@?:;./|=+-()*&¨%$#'>s<[]^~°ºª§{}_");
 
         System.out.println("");
         System.out.println("Quantidade de palavras: "+separador.countTokens());
