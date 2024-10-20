@@ -30,6 +30,6 @@ public class Atv2 {
         System.out.println("Soma final: "+soma);
         System.out.println("");
 
-    in.close();
+        in.close();
     }
 }
